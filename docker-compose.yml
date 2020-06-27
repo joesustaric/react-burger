@@ -1,0 +1,6 @@
+version: "3"
+services:
+  db_1:
+    image: redis:latest
+  db:
+    image: neo4j:latest
